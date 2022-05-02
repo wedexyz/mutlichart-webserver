@@ -1,0 +1,256 @@
+canvas{
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+/* Data Table Styling */
+#dataTable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#dataTable td, #dataTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#dataTable tr:nth-child(even){background-color: #f2f2f2;}
+
+#dataTable tr:hover {background-color: #ddd;}
+
+#dataTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #2cc2ca;
+  color: white;
+}
+.puteran {
+  float: left;
+
+}
+
+
+.d3-gauge {
+  float: left;
+}
+
+/* Simple */
+.d3-gauge.simple .outer-circle {
+  fill         :  #ccc;
+  stroke       :  #000;
+  stroke-width :  0.5px;
+}
+
+.d3-gauge.simple .inner-circle {
+  fill         :  #fff;
+  stroke       :  #E0E0E0;
+  stroke-width :  2px;
+}
+
+.d3-gauge.simple .label {
+  fill      :  #333;
+  font-size :  16px;
+}
+
+.d3-gauge.simple .labelc {
+  fill      :  #333;
+  font-size :  12px;
+}
+
+.d3-gauge.simple .major-tick {
+  stroke       :  #333;
+  stroke-width :  2px;
+}
+
+.d3-gauge.simple .minor-tick {
+  stroke       :  #666;
+  stroke-width :  1px;
+}
+
+.d3-gauge.simple .major-tick-label {
+  fill         :  darkblue;
+  stroke-width :  2px;
+  font-size    :  15px;
+}
+
+.d3-gauge.simple .needle {
+  fill         :  #dc3912;
+  stroke       :  #c63310;
+  fill-opacity :  0.7;
+}
+
+.d3-gauge.simple .needle-container {
+  fill         :  #4684EE;
+  stroke       :  #666;
+  fill-opacity :  1;
+}
+
+.d3-gauge.simple .current-value {
+  fill         :  #000;
+  stroke-width :  0px;
+}
+
+.d3-gauge.simple .green-zone {
+  fill :  #FF9900
+}
+
+.d3-gauge.simple .yellow-zone {
+  fill :  #FF9900
+}
+
+.d3-gauge.simple .red-zone {
+  fill :  #DC3912
+}
+
+/* GrayScale */
+
+.d3-gauge.grayscale .outer-circle {
+  fill         :  #00A8A9;
+  stroke       :  #000;
+  stroke-width :  0.5px;
+}
+
+.d3-gauge.grayscale .inner-circle {
+  fill         :  #111;
+  stroke       :  #E0E0E0;
+  stroke-width :  2px;
+}
+
+.d3-gauge.grayscale .label {
+  fill      :  #ff9102;
+  font-size :  24px;
+}
+
+.d3-gauge.grayscale .labelc {
+  fill      :  #fff;
+  font-size :  12px;
+}
+
+.d3-gauge.grayscale .major-tick {
+  stroke       :  #888;
+  stroke-width :  2px;
+}
+
+.d3-gauge.grayscale .minor-tick {
+  stroke       :  #777;
+  stroke-width :  1px;
+}
+
+.d3-gauge.grayscale .major-tick-label {
+  fill         :  #ddd;
+  stroke-width :  2px;
+  font-size    :  15px;
+}
+
+.d3-gauge.grayscale .needle {
+  fill         :  #ff9102;
+  stroke       :  #555;
+  fill-opacity :  0.7;
+}
+
+.d3-gauge.grayscale .needle-container {
+  fill         :  #444;
+  stroke       :  #666;
+  fill-opacity :  1;
+}
+
+.d3-gauge.grayscale .current-value {
+  fill         :  #fff;
+  stroke-width :  0px;
+}
+
+.d3-gauge.grayscale .green-zone {
+  fill :  #ddd;
+}
+
+.d3-gauge.grayscale .yellow-zone {
+  fill :  #888
+}
+
+.d3-gauge.grayscale .red-zone {
+  fill :  #666
+}
+html {
+  font-family: Arial;
+  display: inline-block;
+  margin: 0px auto;
+  text-align: center;
+}
+h1 {
+  color: #0F3376;
+  padding: 2vh;
+}
+p {
+  font-size: 1.5rem;
+}
+.button {
+  display: inline-block;
+  background-color:#2cc2ca;
+  border: none;
+  border-radius: 1px;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 10px;
+  margin: 2px;
+  cursor: pointer;
+}
+.button2 {
+  display: inline-block;
+  background-color: #ee7d75;
+  border: none;
+  border-radius: 1px;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 10px;
+  margin: 2px;
+  cursor: pointer;
+}
+.button3 {
+  display: inline-block;
+  background-color: #08f830;
+  border: none;
+  border-radius: 1px;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 10px;
+  margin: 2px;
+  cursor: pointer;
+}
+.button4 {
+  display: inline-block;
+  background-color: #c4f808;
+  border: none;
+  border-radius: 1px;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 10px;
+  margin: 2px;
+  cursor: pointer;
+}
+.button5 {
+  display: inline-block;
+  background-color: #58f37a;
+  border: none;
+  border-radius: 1px;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 10px;
+  margin: 2px;
+  cursor: pointer;
+}
+.units {
+  font-size: 1.2rem;
+ }
+.sensor-labels {
+  font-size: 1.5rem;
+  vertical-align:middle;
+  padding-bottom: 15px;
+}
